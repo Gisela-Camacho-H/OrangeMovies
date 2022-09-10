@@ -18,7 +18,7 @@ class ViewController: UIViewController {
     }
 
     func initUI() {
-        view.backgroundColor = .purple
+        view.backgroundColor = .blue
         let mainText = UILabel(frame: CGRect(x: UIScreen.main.bounds.width/2 - 50, y: 200 , width: 200, height: 40))
         mainText.text = "OrangeMovies"
         mainText.textColor = .white
