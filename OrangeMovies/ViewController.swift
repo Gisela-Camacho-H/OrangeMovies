@@ -8,12 +8,37 @@
 import UIKit
 
 class ViewController: UIViewController {
+    
+    var mainText: UILabel?
+    var mainButton: UIButton?
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        view.backgroundColor = .blue
+        initUI()
     }
 
-
+    func initUI() {
+        view.backgroundColor = .purple
+        let mainText = UILabel(frame: CGRect(x: UIScreen.main.bounds.width - 240, y: 400 , width: 200, height: 40))
+        mainText.text = "OrangeMovies"
+        mainText.textColor = .white
+        view.addSubview(mainText)
+        
+        
+        let mainButton = UIButton(frame: CGRect(x: UIScreen.main.bounds.width - 240, y: 600 , width: 55, height: 55))
+        mainButton.setTitleColor(UIColor.cyan, for: .normal)
+        //mainButton.layer.cornerRadius = 10
+        mainButton.backgroundColor = .black
+        mainButton.setTitle("Go!", for: .normal)
+        mainButton.addTarget(self, action: #selector(buttonTap), for: .touchUpInside)
+        view.addSubview(mainButton)
+    }
+    
+    @objc func buttonTap(){
+        print("Thank you!")
+        let goLogin = SignInViewController()
+        goLogin.modalPresentationStyle = .fullScreen
+        present(goLogin, animated: true, completion: nil)
+    }
 }
 
