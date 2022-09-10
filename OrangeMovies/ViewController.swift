@@ -19,13 +19,13 @@ class ViewController: UIViewController {
 
     func initUI() {
         view.backgroundColor = .purple
-        let mainText = UILabel(frame: CGRect(x: UIScreen.main.bounds.width - 240, y: 400 , width: 200, height: 40))
+        let mainText = UILabel(frame: CGRect(x: UIScreen.main.bounds.width/2 - 50, y: 200 , width: 200, height: 40))
         mainText.text = "OrangeMovies"
         mainText.textColor = .white
         view.addSubview(mainText)
         
         
-        let mainButton = UIButton(frame: CGRect(x: UIScreen.main.bounds.width - 240, y: 600 , width: 55, height: 55))
+        let mainButton = UIButton(frame: CGRect(x: UIScreen.main.bounds.width/2 - 30, y: 600 , width: 60, height: 60))
         mainButton.setTitleColor(UIColor.cyan, for: .normal)
         //mainButton.layer.cornerRadius = 10
         mainButton.backgroundColor = .black
