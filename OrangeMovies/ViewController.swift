@@ -24,6 +24,11 @@ class ViewController: UIViewController {
         mainText.textColor = .white
         view.addSubview(mainText)
         
+        let sethText = UILabel(frame:CGRect(x:UIScreen.main.bounds.width/2 - 50, y: 100  , width: 100, height: 20))
+        sethText.text = "las mejores Peliculas"
+        sethText.textColor = .green
+        view.addSubview(sethText)
+        
         
         let mainButton = UIButton(frame: CGRect(x: UIScreen.main.bounds.width/2 - 30, y: 600 , width: 60, height: 60))
         mainButton.setTitleColor(UIColor.cyan, for: .normal)
