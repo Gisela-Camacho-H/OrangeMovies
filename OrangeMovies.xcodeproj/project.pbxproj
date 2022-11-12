@@ -8,6 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		2E431A1B28D59AB2007F97C9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5699361928A807BC0091C51F /* ViewController.swift */; };
+		561371FE292006CA003BFAD4 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 561371FD292006CA003BFAD4 /* HomeViewController.swift */; };
+		56137200292006F2003BFAD4 /* MoviesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 561371FF292006F2003BFAD4 /* MoviesViewController.swift */; };
+		5613720229200731003BFAD4 /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5613720129200731003BFAD4 /* TabBarViewController.swift */; };
+		5613720429200DE4003BFAD4 /* UserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5613720329200DE3003BFAD4 /* UserViewController.swift */; };
 		567E055C28C3B90E0012D078 /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 567E055B28C3B90E0012D078 /* SignInViewController.swift */; };
 		5699361628A807BC0091C51F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5699361528A807BC0091C51F /* AppDelegate.swift */; };
 		5699361828A807BC0091C51F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5699361728A807BC0091C51F /* SceneDelegate.swift */; };
@@ -17,6 +21,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		561371FD292006CA003BFAD4 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		561371FF292006F2003BFAD4 /* MoviesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviesViewController.swift; sourceTree = "<group>"; };
+		5613720129200731003BFAD4 /* TabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarViewController.swift; sourceTree = "<group>"; };
+		5613720329200DE3003BFAD4 /* UserViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserViewController.swift; sourceTree = "<group>"; };
 		567E055B28C3B90E0012D078 /* SignInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
 		5699361228A807BC0091C51F /* OrangeMovies.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OrangeMovies.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5699361528A807BC0091C51F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -66,6 +74,10 @@
 				5699362028A807BD0091C51F /* LaunchScreen.storyboard */,
 				5699362328A807BD0091C51F /* Info.plist */,
 				567E055B28C3B90E0012D078 /* SignInViewController.swift */,
+				561371FD292006CA003BFAD4 /* HomeViewController.swift */,
+				561371FF292006F2003BFAD4 /* MoviesViewController.swift */,
+				5613720129200731003BFAD4 /* TabBarViewController.swift */,
+				5613720329200DE3003BFAD4 /* UserViewController.swift */,
 			);
 			path = OrangeMovies;
 			sourceTree = "<group>";
@@ -141,10 +153,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				561371FE292006CA003BFAD4 /* HomeViewController.swift in Sources */,
+				5613720429200DE4003BFAD4 /* UserViewController.swift in Sources */,
 				567E055C28C3B90E0012D078 /* SignInViewController.swift in Sources */,
 				5699361628A807BC0091C51F /* AppDelegate.swift in Sources */,
 				2E431A1B28D59AB2007F97C9 /* ViewController.swift in Sources */,
+				5613720229200731003BFAD4 /* TabBarViewController.swift in Sources */,
 				5699361828A807BC0091C51F /* SceneDelegate.swift in Sources */,
+				56137200292006F2003BFAD4 /* MoviesViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

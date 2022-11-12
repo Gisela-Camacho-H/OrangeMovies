@@ -12,6 +12,7 @@ class ViewController: UIViewController {
     var mainText: UILabel?
     var marcoParra: UILabel?
     var mainButton: UIButton?
+    var anotherButton: UIButton?
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -41,7 +42,7 @@ class ViewController: UIViewController {
     
     @objc func buttonTap(){
         print("Thank you!")
-        let goLogin = SignInViewController()
+        let goLogin = TabBarViewController()
         goLogin.modalPresentationStyle = .fullScreen
         present(goLogin, animated: true, completion: nil)
     }
